@@ -1,0 +1,168 @@
+.flex-item {
+    width: 100px;
+    height: 100px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+}
+
+.base1 {
+    margin-bottom: 15px;
+    background-color: #d0d3d4;
+    border-radius: 4px;
+    width: 100%;
+    height: 14.4vh;
+    display: flex;
+}
+.base2 {
+    margin-bottom: 15px;
+    background-color: #d0d3d4;
+    border-radius: 4px;
+    width: 100%;
+    height: 14.4vh;
+    display: flex;
+    justify-content: right;
+}
+.base3 {
+    margin-bottom: 15px;
+    background-color: #d0d3d4;
+    border-radius: 4px;
+    width: 100%;
+    height: 14.4vh;
+    display: flex;
+    justify-content: center;
+}
+.base4 {
+    margin-bottom: 15px;
+    background-color: #d0d3d4;
+    border-radius: 4px;
+    width: 100%;
+    height: 14.4vh;
+    display: flex;
+    justify-content: space-between;
+}
+.base5 {
+    margin-bottom: 15px;
+    background-color: #d0d3d4;
+    border-radius: 4px;
+    width: 100%;
+    height: 14.4vh;
+    display: flex;
+    
+}
+.base5 .box1{
+    margin-left: 15%;
+}
+.base5 .box2{
+    margin-left: 10%;
+}
+.base5 .box3{
+    margin-left: 10%;
+}
+.base5 .box4{
+    margin-left: 10%;
+}
+.base6 {
+    margin-bottom: 15px;
+    background-color: #d0d3d4;
+    border-radius: 4px;
+    width: 100%;
+    height: 14.4vh;
+    display: flex;
+}
+.base6 .box1{
+    margin-left: 25%;
+}
+.base6 .box2{
+    margin-left: 5%;
+}
+.base6 .box3{
+    margin-left: 1%;
+}
+.base6 .box4{
+    margin-left: 4%;
+}
+.box1 {
+    background-color: #63b1bc;
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    border-radius: 5%;
+}
+
+.box2 {
+    background-color: #1f2a44;
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    border-radius: 5%;
+}
+
+.box3 {
+    background-color: #ed145b;
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    border-radius: 5%;
+}
+
+.box4 {
+    background-color: #efb661;
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    border-radius: 5%;
+}
+
+h1 {
+    margin: auto;
+    font: 500 7vh monospace;
+}
+
+/* Insira o código abaixo */
+
+ .container1 {
+  
+}
+
+.container2 {
+  
+}
+
+.container3 {
+ 
+}
+
+.container4 {
+  
+}
+.container5 {
+  
+}
+.container6 {
+  
+} 
+
+.container-exercicioB{
+    margin-bottom: 15px;
+    background-color: #d0d3d4;
+    border-radius: 4px;
+    width: 100;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.container-desafio{
+    margin-bottom: 15px;
+    background-color: #d0d3d4;
+    border-radius: 4px;
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    flex-direction:row-reverse;
+    justify-content: left;
+}

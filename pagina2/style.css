@@ -1,0 +1,150 @@
+body{
+    margin: 0;
+    background-color: black;
+    font-family: monospace;
+}
+.header{
+    border-bottom: 3px solid #32b9cd;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+.header .container{
+    justify-content: space-between;
+}
+.header ul .aqui{
+    font-weight: 900;
+}
+.titulo{
+    color: aqua;
+    width: fit-content;
+}
+.navBar{
+    list-style: none;
+    color: limegreen;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 300px;
+    padding: 0%;
+}
+
+
+.banner{
+    background-image: url("img/bg-jelly-fish-para-home.png");
+    color: #fff;
+    height: 500px;
+    display: flex;
+}
+.banner .container p span{
+    font-weight: 1000;
+}
+.banner .container{
+    font-size: 36px;
+    justify-content: center;
+}
+.banner .container p{
+    width: 10%; 
+}
+
+.social{
+    background-color: #fff;
+    display: flex;
+}
+.social .container .boxes .box img{
+    width: 250px;
+}
+.social .container .boxes{
+    display: flex;
+}
+.box{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.footer{
+    margin-top: 3%;
+    background-color: #32b9cd;
+    height: 150px;
+    color: #fff;
+    display: flex;
+    font-size: 17px;
+}
+.footer .container{
+    justify-content: center;
+}
+
+a{
+    color: limegreen;
+    text-decoration: none;
+}
+.banner .container .card{
+    background-color: #fff;
+    color: red;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 13px;
+}
+.card h1{
+    font-size: 30px;
+}
+.card h4{
+    font-size: 16px;
+}
+.card input{
+    border: red solid 1.9px;
+    padding: 3px;
+}
+.card button{
+    background-color: red;
+    margin-top: 25px;
+    height: 30px;
+    width: 100px;
+    font: 700 20px monospace;
+    color: #fff;
+    border: 0;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.banner .container .cardCa{
+    margin-top: 2%;
+    background-color: #fff;
+    color: red;
+    height: 500px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 13px;
+}
+
+.cardCa h1{
+    font-size: 30px;
+}
+.cardCa h4{
+    font-size: 16px;
+}
+.cardCa input{
+    border: red solid 1.9px;
+    padding: 3px;
+}
+.cardCa button{
+    background-color: red;
+    margin-top: 25px;
+    height: 30px;
+    width: 130px;
+    font: 700 20px monospace;
+    color: #fff;
+    border: 0;
+    border-radius: 7px;
+    cursor: pointer;
+}
